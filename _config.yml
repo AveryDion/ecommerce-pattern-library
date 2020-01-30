@@ -7,3 +7,4 @@ patternbot:
   colors:
     patterns:
       brand.logos: "--color-primary"
+      typography.links: "--color-primary"

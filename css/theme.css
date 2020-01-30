@@ -12,3 +12,78 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  color: var(--color-primary);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-teal);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--color-secondary);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+h4 {
+  color: var(--color-secondary);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+h5 {
+  color: var(--color-secondary);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+h6 {
+  color: var(--color-secondary);
+  font-style: normal;
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+li {
+  font-style: normal;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+dt {
+  font-style: normal;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+dd {
+  font-style: normal;
+  font-family: var(--font-primary);
+  color: var(--color-teal);
+  font-weight: 400;
+}
+
+a {
+  color: var(--color-white);
+  font-style: normal;
+  font-family: var(--font-primary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+cite {
+  color: var(--color-secondary);
+}
