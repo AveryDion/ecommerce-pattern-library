@@ -1,0 +1,12 @@
+<script type="text/javascript">
+  function ChangeImage(a) {
+      document.getElementById("viewer").src = a;
+  }
+</script>
+<div>
+  <img class="img-flex push-1-2 product-img-main" id="viewer" src="/images/product-placeholder-1.svg" alt=" ">
+
+  <img class="img-flex thumbnail inline" src="/images/product-placeholder-1.svg" onclick="ChangeImage('/images/product-placeholder-1.svg');">
+  <img class="img-flex thumbnail inline" src="/images/product-placeholder-2.svg" onclick="ChangeImage('/images/product-placeholder-2.svg');">
+  <img class="img-flex thumbnail inline" src="/images/product-placeholder-3.svg" onclick="ChangeImage('/images/product-placeholder-3.svg');">
+</div>

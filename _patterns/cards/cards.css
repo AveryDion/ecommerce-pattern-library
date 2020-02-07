@@ -1,0 +1,11 @@
+.thumbnail {
+  width: 100px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
+
+.product-img-main {
+  border-bottom: 12px solid var(--color-teal);
+}
