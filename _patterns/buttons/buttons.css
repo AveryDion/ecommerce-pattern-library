@@ -8,17 +8,19 @@
 .btn:hover {
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
+  transition: .3s;
 }
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-secondary);
+  border-color: var(--color-grey);
+  color: var(--color-grey);
 }
 
 .btn-ghost:hover {
-  border-color: var(--color-secondary-dark);
+  border-color: var(--color-grey);
   background-color: var(--color-grey);
-  color: var(--color-secondary-dark);
+  color: var(--color-white);
 }
 
 .btn-light {

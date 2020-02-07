@@ -9,3 +9,8 @@
 .product-img-main {
   border-bottom: 12px solid var(--color-teal);
 }
+
+.darken:hover {
+  filter: brightness(75%);
+  transition: .4s;
+}
