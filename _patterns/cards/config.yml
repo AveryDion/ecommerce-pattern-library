@@ -1,0 +1,31 @@
+title: "Cards"
+description: |
+  Cards should be used to connect the image and information while linking the user to the product or destination. Banners whould be used to draw attention and provide a call-to-action.
+
+patterns:
+  banner-small:
+    title: "Small Banner"
+    description: |
+      The small banner should be used as a subtle way to giude the user. They should be used on the product list page.
+
+  product-photo-array:
+    title: "Product Photos"
+    description: |
+      The product photo array should be used on the product info page to provide different images of the product.
+    width: 500
+
+  featured-card:
+    title: "Featured Card"
+    description: |
+      The featured card should be used in the featured section as a way to highlight the currently featured products and link the user to the product's info page.
+
+  product-card:
+    title: "Product Card"
+    description: |
+      The product card should be used on product list pages to provide a view of the product, name of product, and the price.
+    width: 300
+
+  banner-home:
+    title: "Home Banner"
+    description: |
+      The home banner should be used on the home page and any other pages that require a large banner to grab attention and provide a call-to-action.
