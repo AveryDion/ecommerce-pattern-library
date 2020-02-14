@@ -6,6 +6,14 @@
   border-color: var(--color-primary);
   max-width: 30%;
   color: var(--color-teal-dark);
+  border-radius: 4px;
+}
+
+.input-field-number {
+  border-color: var(--color-primary);
+  max-width: 5em;
+  color: var(--color-teal-dark);
+  border-radius: 4px;
 }
 
 .submit-input {
@@ -28,4 +36,30 @@
 
 .fieldsets {
   border: none;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-secondary);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-grey);
+  color: var(--color-secondary);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
 }

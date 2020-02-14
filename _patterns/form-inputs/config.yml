@@ -1,0 +1,49 @@
+title: "Form Inputs"
+description: |
+  Inputs are used to gather information. They should be used within the form on the checkout page to guide the user through the process and help them fill out any required information.
+
+patterns:
+  text-input:
+    title: "Text Input"
+    description: |
+      The text input should be used for single lines of text that are to be entered by the user, for example names and adresses.
+
+  submit-input:
+    title: "Submit Input"
+    description: |
+      The submit input should be used as the submit button on a form.
+
+  radio-button:
+    title: "Radio Button"
+    description: |
+      The radio button should be used when there are a few options but only one can be selected.
+
+  quantity:
+    title: "Number Input"
+    description: |
+      The number input should be used when the user has to enter in the desired quantity of a product.
+
+  phone-input:
+    title: "Phone Input"
+    description: |
+      The phone input should be used when a phone number is required.
+
+  password-input:
+    title: "Password Input"
+    description: |
+      The password input should be used when a password is required.
+
+  options-input:
+    title: "Dropdown Menu"
+    description: |
+      The dropdown menu should be used when there are many options but only one can be choosen.
+
+  email-input:
+    title: "Email Input"
+    description: |
+      The email input should be used when an email is required.
+
+  checkbox:
+    title: "Checkbox"
+    description: |
+      The checkbox should be used when there are different options but multiple can be selected.
