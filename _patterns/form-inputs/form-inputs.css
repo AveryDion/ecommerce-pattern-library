@@ -1,0 +1,31 @@
+.input-label {
+  color: var(--color-primary);
+}
+
+.input-field {
+  border-color: var(--color-primary);
+  max-width: 30%;
+  color: var(--color-teal-dark);
+}
+
+.submit-input {
+  max-width: 15%;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border-color: var(--color-secondary);
+  border-radius: 8px;
+}
+
+.submit-input:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+  transition: .3s;
+}
+
+.legends {
+  color: var(--color-primary);
+}
+
+.fieldsets {
+  border: none;
+}

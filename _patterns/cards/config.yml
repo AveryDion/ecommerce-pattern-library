@@ -1,4 +1,4 @@
-title: "Cards"
+title: "Cards and Banners"
 description: |
   Cards should be used to connect the image and information while linking the user to the product or destination. Banners whould be used to draw attention and provide a call-to-action.
 
@@ -18,6 +18,7 @@ patterns:
     title: "Featured Card"
     description: |
       The featured card should be used in the featured section as a way to highlight the currently featured products and link the user to the product's info page.
+    width: 300
 
   product-card:
     title: "Product Card"
