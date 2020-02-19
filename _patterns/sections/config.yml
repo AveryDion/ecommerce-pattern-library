@@ -1,0 +1,14 @@
+title: "Sections"
+description: |
+  Sections should be used to seperate and define related information.
+
+patterns:
+  image-section:
+    title: "Image Section"
+    description: |
+      The image section whould be used to group information with an image. This is used to guide the user through the site to learn more.
+
+  text-section:
+    title: "Text Section"
+    description: |
+      The text section is used for larger amounts of text on the site. Most often it is used for intro paragraphs.

@@ -1,0 +1,19 @@
+title: "Navigations"
+description: |
+  Navigation should be used to guide the user throughout the website. Different navigations should be used based on the content.
+
+patterns:
+  page-buttons:
+    title: "Page Buttons"
+    description: |
+      Page Buttons should be used to guide the user between the pages, for example on the product list page.
+
+  product-nav:
+    title: "Product Navigation"
+    description: |
+      Product Navigation should be used on product list pages to help the user view different categories of products.
+
+  back-button:
+    title: "Back Button"
+    description: |
+      The Back Button should be used to guide the user back one page, for example on the product page this button would take the user back to the product list page.

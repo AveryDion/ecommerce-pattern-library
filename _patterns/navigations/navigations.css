@@ -1,0 +1,36 @@
+.page-buttons {
+  color: var(--color-secondary);
+}
+
+a:hover .arrow {
+  transform: translateY(-10%);
+  fill: var(--color-secondary-dark);
+  transition: all .5s;
+}
+
+.page-number {
+  color: var(--color-secondary);
+}
+
+.page-number:hover {
+  color: var(--color-secondary-dark);
+  text-decoration: underline;
+  transition: all .5s;
+}
+
+.page-name:hover {
+  color: var(--color-secondary-dark);
+}
+
+.product-nav-item {
+  color: var(--color-teal);
+}
+
+.product-nav-item:hover {
+  color: var(--color-teal-dark);
+  text-decoration: underline;
+}
+
+.product-nav {
+  border-left: solid 5px var(--color-teal);
+}

@@ -21,3 +21,4 @@ patternbot:
       brand.logos: "--color-primary"
       typography.links: "--color-primary"
       icons.icons: "--color-primary"
+      icons.icons-with-labels: "--color-primary"
