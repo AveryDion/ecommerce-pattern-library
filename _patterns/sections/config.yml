@@ -7,6 +7,7 @@ patterns:
     title: "Image Section"
     description: |
       The image section whould be used to group information with an image. This is used to guide the user through the site to learn more.
+    width: 1000
 
   text-section:
     title: "Text Section"

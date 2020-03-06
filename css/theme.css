@@ -60,7 +60,7 @@ h6 {
 li {
   font-style: normal;
   font-family: var(--font-primary);
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
   font-weight: 400;
 }
 
@@ -92,5 +92,11 @@ cite {
 
 mark {
   background-color: var(--color-teal);
+  color: var(--color-white);
+}
+
+footer,
+header {
+  background-color: var(--color-primary);
   color: var(--color-white);
 }

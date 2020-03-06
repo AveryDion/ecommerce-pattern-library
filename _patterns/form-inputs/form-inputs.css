@@ -4,7 +4,7 @@
 
 .input-field {
   border-color: var(--color-primary);
-  max-width: 30%;
+  max-width: 40%;
   color: var(--color-teal-dark);
   border-radius: 4px;
 }
@@ -28,6 +28,20 @@
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
   transition: .3s;
+}
+
+.footer-submit {
+  max-width: 30%;
+  background-color: var(--color-white)
+  border-color: var(--color-white);
+  border-radius: 8px;
+}
+
+.footer-submit:hover {
+  background-color: var(--color-grey);
+  border-color: var(--color-grey);
+  transition: .3s;
+  color: var(--color-white);
 }
 
 .legends {

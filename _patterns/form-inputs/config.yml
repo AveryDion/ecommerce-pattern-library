@@ -47,3 +47,13 @@ patterns:
     title: "Checkbox"
     description: |
       The checkbox should be used when there are different options but multiple can be selected.
+
+  footer-email:
+    title: "Footer Email"
+    description: |
+      The Footer Email field should be used within the main footer of the website.
+
+  footer-submit:
+    title: "Footer Submit"
+    description: |
+      The Footer Submit button should be used within the main footer of the website.
