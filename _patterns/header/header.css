@@ -1,5 +1,5 @@
-.topnav {
-  overflow: hidden;
+.nav-icon {
+  border-width: 0px;
 }
 
 .topnav a {
@@ -19,23 +19,25 @@
   max-width: 3em;
 }
 
-@media screen and (max-width: 600px) {
+a.current {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 38em) {
   .nav-item{
     display: none;
   }
 
-  .topnav a.nav-icon {
+  .topnav button.nav-icon {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     padding: 14px 16px;
   }
-}
 
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive a.nav-icon {
+  .topnav.responsive button.nav-icon {
     display: block;
     position: absolute;
     top: 0;
@@ -46,5 +48,4 @@
     display: block;
     text-align: center;
   }
-
 }

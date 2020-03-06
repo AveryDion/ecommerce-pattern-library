@@ -22,3 +22,7 @@ patternbot:
       typography.links: "--color-primary"
       icons.icons: "--color-primary"
       icons.icons-with-labels: "--color-primary"
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the websites primary header and footer.

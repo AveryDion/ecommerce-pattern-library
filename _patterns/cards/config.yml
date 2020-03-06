@@ -7,6 +7,14 @@ patterns:
     title: "Small Banner"
     description: |
       The small banner should be used as a subtle way to giude the user. They should be used on the product list page.
+    fields:
+      - name: banner-small-image
+        type: string
+        example: "placeholder-banner-small.jpg"
+
+      - name: text
+        type: string
+        example: "Explore the Feather Bar"
 
   product-photo-array:
     title: "Product Photos"
@@ -30,3 +38,25 @@ patterns:
     title: "Home Banner"
     description: |
       The home banner should be used on the home page and any other pages that require a large banner to grab attention and provide a call-to-action.
+    fields:
+      - name: heading
+        type: string
+        example: "Discover the perfect hat accessories for you"
+
+      - name: text
+        type: string
+        example: "Explore the Feather Bar"
+
+      - name: banner-image
+        type: string
+        example: "placeholder-banner-home.jpg"
+
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false

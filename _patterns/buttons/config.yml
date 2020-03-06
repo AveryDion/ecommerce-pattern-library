@@ -7,12 +7,35 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used on banners and primary actions.
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
+
   light:
     title: "Light"
     description: |
       The light button is specifically for secondary actions. It should be used in sections.
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
+
   ghost:
     title: "Ghost"
     description: |
       The ghost button is to be used in the footer and for the least important actions.
     background: "--color-primary"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"

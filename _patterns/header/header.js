@@ -1,8 +1,5 @@
-function myFunction() {
+var btn = document.querySelector(".nav-icon");
+btn.addEventListener("click", function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+  x.classList.toggle("responsive");
+})
