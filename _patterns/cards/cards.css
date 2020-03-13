@@ -13,4 +13,6 @@
 .darken:hover {
   filter: brightness(75%);
   transition: .4s;
+  min-height: 100%;
+  width: 100%;
 }

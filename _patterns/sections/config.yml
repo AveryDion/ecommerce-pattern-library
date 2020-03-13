@@ -8,6 +8,20 @@ patterns:
     description: |
       The image section whould be used to group information with an image. This is used to guide the user through the site to learn more.
     width: 1000
+    fields:
+      - name: image
+        type: string
+        example: "image-section-1.jpg"
+
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
 
   text-section:
     title: "Text Section"

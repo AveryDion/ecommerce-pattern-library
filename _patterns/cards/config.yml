@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: banner-small-image
         type: string
-        example: "placeholder-banner-small.jpg"
+        example: "banner-small-1.jpg"
 
       - name: text
         type: string
@@ -21,18 +21,50 @@ patterns:
     description: |
       The product photo array should be used on the product info page to provide different images of the product.
     width: 500
+    fields:
+      - name: product-image-1
+        type: string
+        example: "pheonix-1.jpg"
+
+      - name: product-image-2
+        type: string
+        example: "pheonix-2.jpg"
+
+      - name: product-image-3
+        type: string
+        example: "pheonix-3.jpg"
 
   featured-card:
     title: "Featured Card"
     description: |
       The featured card should be used in the featured section as a way to highlight the currently featured products and link the user to the product's info page.
     width: 300
+    fields:
+      - name: name
+        type: string
+        example: "Raven"
+
+      - name: featured-image
+        type: string
+        example: "raven.jpg"
 
   product-card:
     title: "Product Card"
     description: |
       The product card should be used on product list pages to provide a view of the product, name of product, and the price.
     width: 300
+    fields:
+      - name: name
+        type: string
+        example: "Pheonix"
+
+      - name: price
+        type: string
+        example: "$8.99"
+
+      - name: product-image
+        type: string
+        example: "pheonix.jpg"
 
   banner-home:
     title: "Home Banner"
@@ -49,7 +81,7 @@ patterns:
 
       - name: banner-image
         type: string
-        example: "placeholder-banner-home.jpg"
+        example: "banner-home.jpg"
 
       - name: button_text
         type: string
