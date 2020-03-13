@@ -2,7 +2,13 @@
 layout: default
 highlight_nav: shop
 ---
+{% pattern cards/banner-small banner-small-image="banner-small-1.jpg" text="Explore the Feather Bar" %}
+<h1 class="island">Products</h1>
 
-{% pattern cards/banner-small banner-small-image="placeholder-banner-small.jpg" text="Explore the Feather Bar" %}
-
-<h1>Products</h1>
+<div class="grid gutter-1-4">
+  {% for product in site.products %}
+    <div class="unit [ xs-1 s-1 m-1-4 ] island">
+      {% pattern cards/product-card data=product %}
+    </div>
+  {% endfor %}
+</div>

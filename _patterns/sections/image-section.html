@@ -7,7 +7,7 @@
       <h2 class="push-0 tera">What's New?</h2>
       <p>Take a look at the newest collection to join the Feather Bar!</p>
       {% if include.button_url %}
-        {% pattern buttons/light text="Shop Now" url="/products/" %}
+        {% pattern buttons/light text=include.button_text url=include.button_url %}
       {% endif %}
     </div>
   </div>

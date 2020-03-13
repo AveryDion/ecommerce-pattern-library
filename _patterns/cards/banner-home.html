@@ -1,10 +1,12 @@
 <div class="banner embed embed-3by1">
   <img class="absolute img-flex embed-item" src="/images/{{include.banner-image}}" role="presentation">
-  <div class="realtive pin-lb gutter-2 push-2">
-    <p class="push-1-4 giga">{{include.heading}}</p>
-    <p>{{include.text}}</p>
-    {% if include.button_url %}
-      {% pattern buttons/basic text="Shop Now" url="/products/" %}
-    {% endif %}
+  <div class="realtive pin-lb gutter-2 push-1">
+    <p class="banner-text push-1-4 giga">{{include.heading}}</p>
+    <p class="banner-text">{{include.text}}</p>
+    <div class="pad-b">
+      {% if include.button_url %}
+        {% pattern buttons/basic text="Shop Now" url="/products/" %}
+      {% endif %}
+    </div>
   </div>
 </div>

@@ -24,15 +24,15 @@ patterns:
     fields:
       - name: product-image-1
         type: string
-        example: "pheonix-1.jpg"
+        example: "phoenix-1.jpg"
 
       - name: product-image-2
         type: string
-        example: "pheonix-2.jpg"
+        example: "phoenix-2.jpg"
 
       - name: product-image-3
         type: string
-        example: "pheonix-3.jpg"
+        example: "phoenix-3.jpg"
 
   featured-card:
     title: "Featured Card"
@@ -54,17 +54,23 @@ patterns:
       The product card should be used on product list pages to provide a view of the product, name of product, and the price.
     width: 300
     fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+
       - name: name
         type: string
-        example: "Pheonix"
+        example: "Phoenix"
 
       - name: price
         type: string
         example: "$8.99"
 
-      - name: product-image
+      - name: image
         type: string
-        example: "pheonix.jpg"
+        example: "phoenix.jpg"
 
   banner-home:
     title: "Home Banner"

@@ -1,5 +1,5 @@
-<a class="card" href="#">
-  <img class="darken img-flex" src="/images/{{include.product-image}}" alt=" ">
-  <h3 class="text-center push-0 mega">{{include.name}}</h3>
-  <h3 class="text-center kilo">{{include.price}}</h3>
+<a class="card" href="{{include.data.url}}">
+  <img class="darken img-flex" src="{{include.data.image}}" alt=" ">
+  <h3 class="text-center not-bold push-0 mega">{{include.data.name}}</h3>
+  <p class="text-center bold price kilo">{{include.data.price}}</p>
 </a>

@@ -23,9 +23,12 @@ patterns:
       - name: text
         type: string
         example: "Shop Now"
+        required: false
+
       - name: url
         type: url
         example: "/products/"
+        required: false
 
   ghost:
     title: "Ghost"

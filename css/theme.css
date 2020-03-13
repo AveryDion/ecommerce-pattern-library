@@ -100,3 +100,13 @@ header {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
+
+/* @utility Set the background using the teal colour */
+.featured-section {
+  background-color: var(--color-teal);
+}
+
+/* @utility Set the color of the font to white*/
+.featured-title {
+  color: var(--color-white);
+}
