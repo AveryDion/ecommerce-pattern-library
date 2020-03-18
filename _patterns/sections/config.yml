@@ -23,7 +23,19 @@ patterns:
         example: "/products/"
         required: false
 
+      - name: heading
+        type: string
+        example: "What's New?"
+
+      - name: text
+        type: string
+        example: "Take a look at the newest collection to join the Feather Bar!"
+
   text-section:
     title: "Text Section"
     description: |
       The text section is used for larger amounts of text on the site. Most often it is used for intro paragraphs.
+    fields:
+      - name: text
+        type: string
+        example: "Looking to accessorize your hat? The Feather Bar is the perfect place for you. The Feather Bar specializes in providing your hat with the perfect feather to match your style! The Feather Bar features many different feather styles and colours to ensure that you always find what you’re looking for!"

@@ -5,20 +5,24 @@ layout: default
 {% pattern cards/banner-home button_text="Shop Now" button_url="/products" heading="Discover the perfect hat accessories for you" text="Explore the Feather Bar" banner-image="banner-home.jpg" %}
 
 <section class="featured-section pad-b-2">
-  <h1 class="featured-title gutter text-center push-none pad-t-2">Featured</h1>
+  <h1 class="featured-title gutter text-center push-none pad-b-1-2 pad-t-2">Featured</h1>
   <div class="grid gutter-2">
-    <div class="unit xs-1 s-1 m-1-3 gutter-1-2">
+    <div class="unit xs-1 s-1 m-1-3 gutter-1-2 push-1-2">
       {% pattern cards/featured-card name="Raven" featured-image="raven.jpg" %}
     </div>
-    <div class="unit xs-1 s-1 m-1-3 gutter-1-2">
+    <div class="unit xs-1 s-1 m-1-3 gutter-1-2 push-1-2">
       {% pattern cards/featured-card name="Griffin" featured-image="griffin.jpg" %}
     </div>
-    <div class="unit xs-1 s-1 m-1-3 gutter-1-2">
+    <div class="unit xs-1 s-1 m-1-3 gutter-1-2 push-1-2">
       {% pattern cards/featured-card name="Phoenix" featured-image="phoenix.jpg" %}
     </div>
   </div>
 </section>
 
+<section class="pad-t-2 gutter">
+  {% pattern sections/text-section text="Looking to accessorize your hat? The Feather Bar is the perfect place for you. The Feather Bar specializes in providing your hat with the perfect feather to match your style! The Feather Bar features many different feather styles and colours to ensure that you always find what you’re looking for!" %}
+</section>
+
 <section class="pad-t-2 pad-b-2 gutter">
-  {% pattern sections/image-section button_text="View More" button_url="/products" image="image-section-1.jpg" %}
+  {% pattern sections/image-section button_text="View More" button_url="/products" image="image-section-1.jpg" heading="What's New?" text="Take a look at the newest collection to join the Feather Bar!" %}
 </section>

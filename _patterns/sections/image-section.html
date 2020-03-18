@@ -4,8 +4,8 @@
       <img class="img-flex" src="/images/{{include.image}}" alt="#">
     </div>
     <div class="unit s-1 m-1-2 gutter-1-2">
-      <h2 class="push-0 tera">What's New?</h2>
-      <p>Take a look at the newest collection to join the Feather Bar!</p>
+      <h2 class="push-0 tera">{{include.heading}}</h2>
+      <p>{{include.text}}</p>
       {% if include.button_url %}
         {% pattern buttons/light text=include.button_text url=include.button_url %}
       {% endif %}
