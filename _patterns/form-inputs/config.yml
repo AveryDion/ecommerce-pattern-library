@@ -7,6 +7,21 @@ patterns:
     title: "Text Input"
     description: |
       The text input should be used for single lines of text that are to be entered by the user, for example names and adresses.
+    fields:
+      - name: label
+        type: string
+        example: "First Name"
+
+      - name: id
+        type: string
+        example: "first-name"
+
+      - name: error
+        type: string
+        example: "Please enter your first name."
+      - name: error-id
+        type: string
+        example: "text-error"
 
   submit-input:
     title: "Submit Input"
@@ -17,21 +32,77 @@ patterns:
     title: "Radio Button"
     description: |
       The radio button should be used when there are a few options but only one can be selected.
+    fields:
+      - name: label1
+        type: string
+        example: "Male"
+      - name: label2
+        type: string
+        example: "Female"
+      - name: label3
+        type: string
+        example: "Other"
+      - name: id1
+        type: string
+        example: "male"
+      - name: id2
+        type: string
+        example: "female"
+      - name: id3
+        type: string
+        example: "other"
+      - name: title
+        type: string
+        example: "What's your preferred gender?"
 
   quantity:
     title: "Number Input"
     description: |
       The number input should be used when the user has to enter in the desired quantity of a product.
+    fields:
+      - name: label
+        type: string
+        example: "Quantity"
+
+      - name: id
+        type: string
+        example: "quantity"
 
   phone-input:
     title: "Phone Input"
     description: |
       The phone input should be used when a phone number is required.
+    fields:
+      - name: error
+        type: string
+        example: "Please enter a phone number."
+      - name: label
+        type: string
+        example: "Enter your phone number:"
+      - name: id
+        type: string
+        example: "phone"
+      - name: error-id
+        type: string
+        example: "phone-error"
 
   password-input:
     title: "Password Input"
     description: |
       The password input should be used when a password is required.
+    fields:
+      - name: label
+        type: string
+        example: "Password"
+      - name: error
+        type: string
+        example: "Please enter a password"
+      - name: error-id
+        type: string
+        example: "password-error"
+      - name: id
+        type: string
+        example: "password"
 
   options-input:
     title: "Dropdown Menu"
@@ -42,6 +113,19 @@ patterns:
     title: "Email Input"
     description: |
       The email input should be used when an email is required.
+    fields:
+      - name: label
+        type: string
+        example: "Email"
+      - name: id
+        type: string
+        example: "email"
+      - name: error
+        type: string
+        example: "Please enter an email"
+      - name: error-id
+        type: string
+        example: "email-error"
 
   checkbox:
     title: "Checkbox"

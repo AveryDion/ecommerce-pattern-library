@@ -1,11 +1,11 @@
 <fieldset class="fieldsets">
-  <legend class="legends mega not-bold">What’s your preferred gender?</legend>
-  <input type="radio" id="male" name="gender" value="male">
-  <label class="input-label" for="male">Male</label><br>
+  <legend class="legends mega not-bold">{{include.title}}</legend>
+  <input type="radio" id="{{include.id1}}" name="gender" value="male">
+  <label class="input-label" for="{{include.id1}}">{{include.label1}}</label><br>
 
-  <input type="radio" id="female" name="gender" value="female">
-  <label class="input-label" for="female">Female</label><br>
+  <input type="radio" id="{{include.id2}}" name="gender" value="female">
+  <label class="input-label" for="{{include.id2}}">{{include.label2}}</label><br>
 
-  <input type="radio" id="other" name="gender" value="other">
-  <label class="input-label" for="other">Other</label>
+  <input type="radio" id="{{include.id3}}" name="gender" value="other">
+  <label class="input-label" for="{{include.id3}}">{{include.label3}}</label>
 </fieldset>

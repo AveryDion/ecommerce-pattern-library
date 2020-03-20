@@ -6,7 +6,7 @@ patterns:
   banner-small:
     title: "Small Banner"
     description: |
-      The small banner should be used as a subtle way to giude the user. They should be used on the product list page.
+      The small banner should be used as a subtle way to guide the user. It is for decoration and should be used on the product list page.
     fields:
       - name: banner-small-image
         type: string
@@ -47,6 +47,10 @@ patterns:
       - name: featured-image
         type: string
         example: "raven.jpg"
+
+      - name: url
+        type: url
+        example: "/products/"
 
   product-card:
     title: "Product Card"

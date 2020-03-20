@@ -18,22 +18,20 @@ patterns:
   light:
     title: "Light"
     description: |
-      The light button is specifically for secondary actions. It should be used in sections.
+      The light button is specifically for secondary actions. It should be used within the image section to guide the user.
     fields:
       - name: text
         type: string
         example: "Shop Now"
-        required: false
 
       - name: url
         type: url
         example: "/products/"
-        required: false
 
   ghost:
     title: "Ghost"
     description: |
-      The ghost button is to be used in the footer and for the least important actions.
+      The ghost button is to be used for the least important actions. It should be used on a dark background for better visibility.
     background: "--color-primary"
     fields:
       - name: text
