@@ -1,8 +1,28 @@
 ---
 layout: default
 ---
+<section class="gutter-1-2">
+  <div class="pad-t gutter-1-2 pad-t-2 wrapper">
+    {% pattern navigations/back-button url="/products/" %}
+  </div>
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
+  <div class="grid wrapper pad-b-2 pad-t">
 
-{% pattern cards/product-photo-array product_image_1=page.photo-array-1 product_image_2=page.photo-array-2 product_image_3=page.photo-array-3 %}
+    <div class="unit s-1 m-1-2 l-1-2 gutter-1-2 pad-b">
+      {% pattern cards/product-photo-array product_image_1=page.photo-array-1 product_image_2=page.photo-array-2 product_image_3=page.photo-array-3 %}
+    </div>
+
+    <div class="unit s-1 m-1-2 l-1-2 gutter-1-2 pad-b-2">
+      <h1 class="push-none">{{page.name}}</h1>
+      <h2 class="not-bold">{{page.price}}</h2>
+      <p class="max-length pad-b">{{page.description}}</p>
+      <div class="inline-block push-1-2">
+        {% pattern form-inputs/quantity id="quantity" %}
+      </div>
+      <div class="inline-block">
+      {% pattern buttons/basic text="Add to Cart" url="#" %}
+      </div>
+    </div>
+
+  </div>
+</section>
