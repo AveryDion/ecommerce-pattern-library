@@ -4,7 +4,7 @@
 
 .input-field {
   border-color: var(--color-primary);
-  max-width: 40%;
+  max-width: 90%;
   color: var(--color-teal-dark);
   border-radius: 4px;
 }
@@ -17,7 +17,7 @@
 }
 
 .submit-input {
-  max-width: 15%;
+  max-width: 25%;
   background-color: var(--color-secondary);
   color: var(--color-white);
   border-color: var(--color-secondary);

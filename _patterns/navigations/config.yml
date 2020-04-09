@@ -22,3 +22,6 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: text
+        type: string
+        example: "Back"
