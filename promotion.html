@@ -4,4 +4,53 @@ layout: default
 <div class="text-center pad-t-1-2 pad-b-1-2">
   <h1 class="tera push-none">New Bulk Promotion!</h1>
 </div>
-{% pattern cards/banner-home button_text="View More" button_url="" heading="Discover the perfect hat accessories for you" text="Explore the Feather Bar" banner-image="banner-home.jpg" %}
+{% pattern cards/banner-home button_text="Learn More" button_url="" heading="Order in bulk and recieve a discount!" text="Learn more about our bulk pricing!" banner-image="banner-2.jpg" %}
+
+<div class="grid gutter-1-2 pad-t pad-b">
+  <div class="unit s-1 m-1-2 gutter-1-2 pad-b">
+    {% pattern cards/featured-card name="Buy Now!" featured-image="rustic.jpg" url="/products/" %}
+  </div>
+  <div class="unit s-1 m-1-2 gutter-1-2 pad-b">
+    {% pattern cards/featured-card name="Buy Now!" featured-image="jade.jpg" url="/products/" %}
+  </div>
+</div>
+
+<table class="wrapper">
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>Price/Each</th>
+      <th>Discount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-10</td>
+      <td>\$5.99</td>
+      <td>5%</td>
+    </tr>
+    <tr>
+      <td>11-20</td>
+      <td>\$5.49</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>20-50</td>
+      <td>\$4.99</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>50-100</td>
+      <td>\$4.25</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>100+</td>
+      <td>\$3.99 </td>
+      <td>25%</td>
+    </tr>
+  </tbody>
+</table>
+<div class="pad-t pad-b-2 gutter">
+  {% pattern sections/image-section button_text="Subscribe" button_url="" image="image-section-2.jpg" heading="Want to stay updated?" text="Subscribe to our newsletter to recieve emails about our newest promotional offers." %}
+</div>
