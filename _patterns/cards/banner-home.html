@@ -1,9 +1,9 @@
 <div class="banner embed embed-3by1">
-  <img class="absolute img-flex embed-item" src="/images/{{include.banner-image}}" role="presentation">
+  <img class="absolute img-flex embed-item" src="/images/{{include.banner-image}}" role="presentation" alt=" ">
   <div class="realtive pin-lb gutter-2 push-1">
     <p class="banner-text push-1-4 giga">{{include.heading}}</p>
-    <p class="banner-text">{{include.text}}</p>
-    <div class="pad-b">
+    <p class="banner-text push-1-2">{{include.text}}</p>
+    <div class="pad-b-1-2">
       {% if include.button_url %}
         {% pattern buttons/basic text=include.button_text url=include.button_url %}
       {% endif %}

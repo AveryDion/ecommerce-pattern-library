@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#banner">Jump to banner</a></li>
+</ul>
 
-{% pattern cards/banner-home button_text="Shop Now" button_url="/products" heading="Discover the perfect hat accessories for you" text="Explore the Feather Bar" banner-image="banner-home.jpg" %}
+<div role="banner" id="banner" tabindex="0">
+  {% pattern cards/banner-home button_text="Shop Now" button_url="/products" heading="Discover the perfect hat accessories for you" text="Explore the Feather Bar" banner-image="banner-home.jpg" %}
+</div>
 
-<section class="featured-section pad-b-2">
+<section class="featured-section pad-b-2" role="main" id="main" tabindex="0">
   <h1 class="featured-title peta gutter text-center push-none pad-b-1-2 pad-t-2">Featured</h1>
   <div class="grid gutter-2">
     <div class="unit xs-1 s-1 m-1-3 gutter-1-2 push-1-2">

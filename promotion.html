@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-<div class="text-center pad-t-1-2 pad-b-1-2">
-  <h1 class="tera push-none">New Bulk Promotion!</h1>
-</div>
-{% pattern cards/banner-home button_text="Learn More" button_url="" heading="Order in bulk and recieve a discount!" text="Learn more about our bulk pricing!" banner-image="banner-2.jpg" %}
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#banner">Jump to banner</a></li>
+</ul>
 
-<div class="grid gutter-1-2 pad-t pad-b">
+{% pattern cards/promotion-banner text="New Bulk Promotion!" %}
+<div role="banner" id="banner" tabindex="0">
+  {% pattern cards/banner-home button_text="Learn More" button_url="" heading="Order in bulk and recieve a discount!" text="Learn more about our bulk pricing!" banner-image="banner-2.jpg" %}
+</div>
+
+<div class="grid gutter-1-2 pad-t pad-b" role="main" id="main" tabindex="0">
   <div class="unit s-1 m-1-2 gutter-1-2 pad-b">
     {% pattern cards/featured-card name="Buy Now!" featured-image="rustic.jpg" url="/products/" %}
   </div>

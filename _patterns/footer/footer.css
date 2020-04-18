@@ -1,3 +1,11 @@
 .footer-link:hover {
   text-decoration: underline;
 }
+
+.footer-nav {
+  color: var(--color-white);
+}
+
+.footer-nav:hover {
+  color: var(--color-white);
+}

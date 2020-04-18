@@ -18,7 +18,7 @@ patterns:
   light:
     title: "Light"
     description: |
-      The light button is specifically for secondary actions. It should be used within the image section to guide the user.
+      The light button is specifically for secondary actions.
     fields:
       - name: text
         type: string

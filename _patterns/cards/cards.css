@@ -24,3 +24,8 @@
 .price {
   color: var(--color-secondary);
 }
+
+.promotion-banner {
+  background-color: var(--color-teal);
+  color: var(--color-white);
+}

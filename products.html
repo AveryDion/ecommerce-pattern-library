@@ -2,9 +2,17 @@
 layout: default
 highlight_nav: shop
 ---
-{% pattern cards/banner-small banner-small-image="banner-small-1.jpg" text="Explore the Feather Bar" %}
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#banner">Jump to banner</a></li>
+</ul>
+
+<div role="banner" id="banner" tabindex="0">
+  {% pattern cards/banner-small banner-small-image="banner-small-1.jpg" text="Explore the Feather Bar" %}
+</div>
+
 <h1 class="island push-none">Products</h1>
-<div class="grid gutter-1-4">
+<div class="grid gutter-1-4" role="main" id="main" tabindex="0">
   <div class="unit s-1 m-1-3 l-1-4 gutter-2 pad-t">
     {% pattern navigations/product-nav %}
   </div>
@@ -12,7 +20,7 @@ highlight_nav: shop
   <div class="unit m-2-3 l-3-4">
     <div class="grid">
       {% for product in site.products %}
-        <div class="unit [ xs-1 s-1 m-1-4 ] island">
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island">
           {% pattern cards/product-card data=product %}
         </div>
       {% endfor %}

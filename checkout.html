@@ -1,57 +1,60 @@
 ---
 layout: default
 ---
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+</ul>
 
   <div class="pad-t-2 gutter">
     {% pattern navigations/back-button text="Back to cart" %}
   </div>
 
-  <form class="wrapper gutter-2 island-2">
-    <p class="giga">Contact Information</p>
-    <div class="w-1-2 gutter-1-8">
-      {% pattern form-inputs/email-input label="Email" id="email" error="Please enter an email" error-id="email-error" %}
-    </div>
-    <div class="w-1-2 gutter-1-8">
-      {% pattern form-inputs/phone-input error="Please enter a phone number." label="Phone Number" id="phone" error-id="phone-error" %}
-    </div>
+<form class="wrapper gutter-2 island-2">
+  <p class="giga">Contact Information</p>
+  <div class="w-1-2 gutter-1-8">
+    {% pattern form-inputs/email-input label="Email" id="email" error="Please enter an email" error-id="email-error" %}
+  </div>
+  <div class="w-1-2 gutter-1-8">
+    {% pattern form-inputs/phone-input error="Please enter a phone number." label="Phone Number" id="phone" error-id="phone-error" %}
+  </div>
 
 
-    <p class="pad-t-2 giga">Shipping Address</p>
-    <div class="grid">
-      <div class="unit s-1 m-1-2 gutter-1-8">
-        {% pattern form-inputs/text-input label="First Name" id="first-name" error="Please enter your first name." error-id="text-error" %}
-      </div>
-      <div class="unit s-1 m-1-2 gutter-1-8">
-        {% pattern form-inputs/text-input label="Last Name" id="last-name" error="Please enter your last name." error-id="text-error" %}
-      </div>
-      <div class="unit s-1 m-1-2 gutter-1-8">
-        {% pattern form-inputs/text-input label="Address" id="address" error="Please enter your address." error-id="text-error" %}
-      </div>
-      <div class="unit s-1 m-1-2">
-        {% pattern form-inputs/text-input label="City" id="city" error="Please enter your city." error-id="text-error" %}
-      </div>
+  <p class="pad-t-2 giga">Shipping Address</p>
+  <div class="grid">
+    <div class="unit s-1 m-1-2 gutter-1-8">
+      {% pattern form-inputs/text-input label="First Name" id="first-name" error="Please enter your first name." error-id="text-error" %}
     </div>
-      <div class="w-1-2 pad-t-1-4 gutter-1-8">
-        {% pattern form-inputs/options-input %}
-      </div>
-      <div class="w-1-2 gutter-1-8">
-        {% pattern form-inputs/text-input label="Postal Code" id="postal" error="Please enter your postal code." error-id="text-error" %}
-      </div>
+    <div class="unit s-1 m-1-2 gutter-1-8">
+      {% pattern form-inputs/text-input label="Last Name" id="last-name" error="Please enter your last name." error-id="text-error" %}
+    </div>
+    <div class="unit s-1 m-1-2 gutter-1-8">
+      {% pattern form-inputs/text-input label="Address" id="address" error="Please enter your address." error-id="text-error" %}
+    </div>
+    <div class="unit s-1 m-1-2">
+        % pattern form-inputs/text-input label="City" id="city" error="Please enter your city." error-id="text-error" %}
+    </div>
+  </div>
+  <div class="w-1-2 pad-t-1-4 gutter-1-8">
+    {% pattern form-inputs/options-input %}
+  </div>
+  <div class="w-1-2 gutter-1-8">
+    {% pattern form-inputs/text-input label="Postal Code" id="postal" error="Please enter your postal code." error-id="text-error" %}
+  </div>
 
-      <p class="pad-t-2 giga">Payment</p>
-      <div class="w-1-2">
-        {% pattern form-inputs/text-input label="Card Number" id="card-number" error="Please enter the number on your card." error-id="text-error" %}
-      </div>
-      <div class="w-1-2">
-        {% pattern form-inputs/text-input label="Name on Card" id="card-name" error="Please enter the name on your card." error-id="text-error" %}
-      </div>
-      <div class="grid pad-b">
-        <div class="unit s-1 m-1-2">
-          {% pattern form-inputs/text-input label="Expiration date (MM/YY)" id="card-expiration" error="Please enter the expiry date on your card." error-id="text-error" %}
-        </div>
-        <div class="unit s-1 m-1-2">
-          {% pattern form-inputs/text-input label="Security Code" id="card-security" error="Please enter the security code on the back of your card." error-id="text-error" %}
-        </div>
-      </div>
-      {% pattern form-inputs/submit-input %}
-  </form>
+  <p class="pad-t-2 giga">Payment</p>
+  <div class="w-1-2">
+    {% pattern form-inputs/text-input label="Card Number" id="card-number" error="Please enter the number on your card." error-id="text-error" %}
+  </div>
+  <div class="w-1-2">
+    {% pattern form-inputs/text-input label="Name on Card" id="card-name" error="Please enter the name on your card." error-id="text-error" %}
+  </div>
+  <div class="grid pad-b">
+    <div class="unit s-1 m-1-2">
+      {% pattern form-inputs/text-input label="Expiration date (MM/YY)" id="card-expiration" error="Please enter the expiry date on your card." error-id="text-error" %}
+    </div>
+    <div class="unit s-1 m-1-2">
+      {% pattern form-inputs/text-input label="Security Code" id="card-security" error="Please enter the security code on the back of your card." error-id="text-error" %}
+    </div>
+  </div>
+  {% pattern form-inputs/submit-input %}
+</form>

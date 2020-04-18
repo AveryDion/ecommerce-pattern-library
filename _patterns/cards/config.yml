@@ -3,10 +3,19 @@ description: |
   Cards should be used to connect the image and information while linking the user to the product or destination. Banners whould be used to draw attention and provide a call-to-action.
 
 patterns:
+  promotion-banner:
+    title: "Promotional Banner"
+    description: |
+      The Promotional Banner is used as an alert to inform the user of ongoing promotions within the site.
+    fields:
+      - name: text
+        type: string
+        example: "New Bulk Promotion!"
+
   banner-small:
     title: "Small Banner"
     description: |
-      The small banner should be used as a subtle way to guide the user. It is for decoration and should be used on the product list page.
+      The small banner should be used as a subtle way to guide the user. It is for decoration and should be used only when a call-to-action button is not needed.
     fields:
       - name: banner-small-image
         type: string

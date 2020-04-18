@@ -79,11 +79,15 @@ dd {
 }
 
 a {
-  color: var(--color-white);
+  color: var(--color-secondary);
   font-style: normal;
   font-family: var(--font-secondary);
   text-decoration: none;
   font-weight: 400;
+}
+
+a:hover {
+  color: var(--color-secondary-dark);
 }
 
 cite {
@@ -109,4 +113,18 @@ header {
 /* @utility Set the color of the font to white*/
 .featured-title {
   color: var(--color-white);
+}
+
+th {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 0px solid #000;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-grey);
+}
+
+td {
+  border: 0px solid #000;
 }
